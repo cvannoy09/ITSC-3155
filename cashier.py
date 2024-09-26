@@ -10,12 +10,12 @@ class Cashier:
         nickels = int(input("How many nickels?: "))    
         pennies = int(input("How many pennies?: "))
 
-    total += quarter * 0.25
-    total += dimes * 0.10
-    total += nickels * 0.05
-    total += pennies * 0.01
+        total += quarter * 0.25
+        total += dimes * 0.10
+        total += nickels * 0.05
+        total += pennies * 0.01
 
-    return total
+        return total
 
 
     def transaction_result(self, coins, cost):
